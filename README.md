@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
 
+Demostration of Rxjs "interval" Observable within a Angular service, that when subcribed to, will create a counter in the parent component that shows how long a child component was visible to the user.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
