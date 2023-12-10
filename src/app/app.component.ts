@@ -25,6 +25,11 @@ export class AppComponent {
 
   }
 
+  /**
+   * This methods toggles the parent component view template and the child view template
+   * When the child view (the graph) is visible, the observable is called and subcribed to
+   * When the parent view (app component) is visible, the observable is unscribed to -- stoping the 'interval' count
+   */
   toggleGraph() {
     this.showGraphDiv = !this.showGraphDiv;
 

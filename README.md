@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
 
-Demostration of Rxjs "interval" Observable within a Angular service, that when subcribed to, will create a counter in the parent component that shows how long a child component was visible to the user.
+Demostration of Rxjs `interval` Observable within a Angular service, that when subcribed to, will create a counter in the parent component that shows how long a child component was visible to the user.
 
 ## Development server
 
@@ -15,6 +15,11 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Local Deployment
+
+For local deployment of the application, use/install a webserver.  To install `lite-server` after running `ng build` 
+follow the recommended installation instructions found here: [GitHub lite-server page](https://github.com/johnpapa/lite-server)
 
 ## Running unit tests
 
