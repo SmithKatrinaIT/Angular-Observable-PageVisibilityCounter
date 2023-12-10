@@ -1,0 +1,41 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 8px 0;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  text-align: center;
+}
+
+
+#chartControls{
+  margin: 15px;
+}
+#chartBox {
+  width: 700px;
+  height: 350px;
+  border: solid 2px rgb(66, 47, 163);
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 20px;
+
+}
+#timeLaspe {
+  margin-top: 25px;
+  border: 2px dotted red;
+  font-size: 3em;
+}
+
+@media only screen and (max-width: 720px) and (max-height: 340px) {
+ #chartContainer {
+    width: 70%;
+    height: 20%;
+    border-radius: 5px;
+ }
+}
